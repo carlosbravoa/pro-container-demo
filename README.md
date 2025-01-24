@@ -30,12 +30,7 @@ Before building and running the container, ensure the following requirements are
 
 
 3. **Ubuntu Pro Subscription**    
-   - Ensure that the **Ubuntu Pro subscription** is active for all hosts or worker nodes in your environment:
-     - For **EKS clusters**, every worker node must either:
-       - Use the Ubuntu Pro AMI, or  
-       - Be configured with Canonical tokens.  
-
-   Without these configurations, the container will not function correctly with Ubuntu Pro features.
+   - Ensure that the **Ubuntu Pro subscription** is active for all hosts or worker nodes where the Pro Container will be running on (see more details in the notes at the end of the page)
 
 ## Quick Start
 
