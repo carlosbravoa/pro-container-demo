@@ -17,7 +17,12 @@ RUN  apt-get update \
 # If the build process is running on EC2 with Ubuntu Pro, and the service
 # metadata allows one jump, the license will be automatically added to the
 # container without needing tokens or any other manual step
-#RUN pro autoattach
+
+# Helping pro client to use ec2 metadata endpoints
+RUN /bin/echo -e 'settings_overrides:\n  cloud_type: aws'>> /etc/ubuntu-advantage/uaclient.conf
+
+# Running auto-attach, which will use IMDS metadata for validation
+RUN pro auto-attach
 
 # upgrade packages
 RUN apt-get upgrade -y
