@@ -6,6 +6,15 @@ A demonstration of an Ubuntu Pro container with PHP, showcasing the benefits of 
 
 This repository demonstrates how to build and run an Ubuntu Pro container with PHP. The container leverages Ubuntu Pro’s advanced features, such as ESM fixes, providing enhanced security and support for your software stack.
 
+## Key Features of Ubuntu Pro Containers
+
+ - Expanded Security Maintenance (ESM):
+     - No CVEs containers: Apply security patches and updates for all your open-source libraries 
+ - Long-Term Support:
+     - Rely on the extended lifespan of Ubuntu Pro for enterprise environments.
+ - Compliance:
+     - Meet your compliance requirements with enabling FIPS for FedRAMP environments or assisted hardening with the Ubuntu Security Guide tool (usg).
+
 ## Prerequisites
 
 Before building and running the container, ensure the following requirements are met:
@@ -51,13 +60,6 @@ Follow these steps to build and run the Ubuntu Pro container:
    sudo docker run -it --rm ubuntu-pro-php-demo
    ```
    You can also push it to a public (online) repo such as Dockerhub or ECR and deploy it directly onto your clusters.
-
-## Key Features of Ubuntu Pro Containers
-
-    - Expanded Security Maintenance (ESM):
-        - Apply security patches and updates for all your open-source libraries (No CVEs containers!)
-    - Long-Term Support:
-        - Rely on the extended lifespan of Ubuntu Pro for enterprise environments.
 
 ## IMPORTANT NOTES
 
