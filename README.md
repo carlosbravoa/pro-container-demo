@@ -1,4 +1,4 @@
-# Building an Ubuntu Pro Container Demo on AWS
+# Building an Ubuntu Pro Container on AWS (Docker container demo)
 
 A demonstration of how to build an Ubuntu Pro container on AWS, showcasing the benefits of Expanded Security Maintenance (ESM) fixes for a standard PHP web application. ESM-Apps, a feature available on Ubuntu Pro on AWS, adds security coverage for over 25,000 packages, present in the Ubuntu repositories.
 
